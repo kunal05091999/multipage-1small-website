@@ -1,0 +1,46 @@
+div.headLine{
+    display: flex;
+    background-color: rgb(190, 209, 207); /*rgb(5, 40, 80);*/
+    padding: 10px;
+}
+h1{
+    background-color: rgb(231, 136, 149);/*rgb(135, 204, 247);*/
+    color: rgb(3, 32, 70);
+    border-radius: 5px;
+    width: 510px;
+    padding: 6px 0px 10px 31px;
+    border:3px rgb(2, 50, 184) ;
+    margin: 5px 300px 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.contentLine{
+    display: flex;/* Use flexbox to align links horizontally */
+    flex-direction: row;
+    padding: 30px; 
+    justify-content: space-between; /* Distribute space between links */
+    
+}
+.contentLine a {
+    text-decoration: none; /* Remove default underline */
+    color: #0b83a1; /* Set link color */
+    background-color: rgb(236, 234, 234);
+    border-radius: 4px;
+    /*box-shadow: 5px;*/
+    margin: 3px 70px;   /*Add right margin to create space between links */
+    box-shadow: 0px 0px 3px 1px rgb(173, 82, 17) ;
+    padding: 6px 16px 6px 18px;
+}
+a:hover{
+    color: #7a4406;
+    background-color: rgb(231, 224, 220);
+    box-shadow: 0px 0px 1px 1px ;
+}
+body{
+    background-color: rgb(243, 222, 207); /*rgb(161, 215, 248);*/
+    margin: 10px 10px 10px 10px;
+    padding: 0px 100px 0px;
+}
+table, th, td {
+  border: 2px solid black;
+  background-color: rgb(255, 228, 201);
+}
